@@ -1,0 +1,18 @@
+# Core RAG
+langchain-text-splitters       # Text chunking
+chromadb                       # Vector store (persisted to disk)
+sentence-transformers          # Local embeddings (all-MiniLM-L6-v2)
+
+# PDF Processing
+pymupdf                        # PDF text extraction (import as fitz)
+
+# LLM Providers — install the one you need
+google-genai                   # For Gemini (default)
+# openai                       # For OpenAI (uncomment if needed)
+
+# Utils
+python-dotenv                  # Load .env files
+httpx                          # For async HTTP (Ollama async support)
+
+# Dev / Scripts
+fpdf2                          # For generating sample policy PDFs
