@@ -88,3 +88,8 @@ tensorboard/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# RAG Module Data
+chroma_db/
+eval_results.json
+
